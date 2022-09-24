@@ -1,0 +1,311 @@
+========= Round Robin Task Scheduling Algorithm Implementation ========
+======== Starting Execution ========
+Initialising...
+Starting CloudSim version 3.0
+Datacenter_0 is starting...
+Datacenter_1 is starting...
+Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 2 resource(s)
+0.0: Broker: Trying to Create VM #0 in Datacenter_0
+0.0: Broker: Trying to Create VM #1 in Datacenter_0
+0.0: Broker: Trying to Create VM #2 in Datacenter_0
+0.0: Broker: Trying to Create VM #3 in Datacenter_0
+0.0: Broker: Trying to Create VM #4 in Datacenter_0
+0.0: Broker: Trying to Create VM #5 in Datacenter_0
+0.0: Broker: Trying to Create VM #6 in Datacenter_0
+0.0: Broker: Trying to Create VM #7 in Datacenter_0
+0.0: Broker: Trying to Create VM #8 in Datacenter_0
+0.0: Broker: Trying to Create VM #9 in Datacenter_0
+[VmScheduler.vmCreate] Allocation of VM #6 to Host #0 failed by RAM
+[VmScheduler.vmCreate] Allocation of VM #6 to Host #1 failed by MIPS
+[VmScheduler.vmCreate] Allocation of VM #7 to Host #0 failed by RAM
+[VmScheduler.vmCreate] Allocation of VM #7 to Host #1 failed by MIPS
+[VmScheduler.vmCreate] Allocation of VM #8 to Host #0 failed by RAM
+[VmScheduler.vmCreate] Allocation of VM #8 to Host #1 failed by MIPS
+[VmScheduler.vmCreate] Allocation of VM #9 to Host #0 failed by RAM
+[VmScheduler.vmCreate] Allocation of VM #9 to Host #1 failed by MIPS
+0.1: Broker: VM #0 has been created in Datacenter #2, Host #0
+0.1: Broker: VM #1 has been created in Datacenter #2, Host #0
+0.1: Broker: VM #2 has been created in Datacenter #2, Host #0
+0.1: Broker: VM #3 has been created in Datacenter #2, Host #1
+0.1: Broker: VM #4 has been created in Datacenter #2, Host #0
+0.1: Broker: VM #5 has been created in Datacenter #2, Host #1
+0.1: Broker: Creation of VM #6 failed in Datacenter #2
+0.1: Broker: Creation of VM #7 failed in Datacenter #2
+0.1: Broker: Creation of VM #8 failed in Datacenter #2
+0.1: Broker: Creation of VM #9 failed in Datacenter #2
+0.1: Broker: Trying to Create VM #6 in Datacenter_1
+0.1: Broker: Trying to Create VM #7 in Datacenter_1
+0.1: Broker: Trying to Create VM #8 in Datacenter_1
+0.1: Broker: Trying to Create VM #9 in Datacenter_1
+0.2: Broker: VM #6 has been created in Datacenter #3, Host #0
+0.2: Broker: VM #7 has been created in Datacenter #3, Host #0
+0.2: Broker: VM #8 has been created in Datacenter #3, Host #0
+0.2: Broker: VM #9 has been created in Datacenter #3, Host #1
+0.2: Broker: Sending cloudlet 0 to VM #0
+0.2: Broker: Sending cloudlet 1 to VM #1
+0.2: Broker: Sending cloudlet 2 to VM #2
+0.2: Broker: Sending cloudlet 3 to VM #3
+0.2: Broker: Sending cloudlet 4 to VM #4
+0.2: Broker: Sending cloudlet 5 to VM #5
+0.2: Broker: Sending cloudlet 6 to VM #6
+0.2: Broker: Sending cloudlet 7 to VM #7
+0.2: Broker: Sending cloudlet 8 to VM #8
+0.2: Broker: Sending cloudlet 9 to VM #9
+0.2: Broker: Sending cloudlet 10 to VM #0
+0.2: Broker: Sending cloudlet 11 to VM #1
+0.2: Broker: Sending cloudlet 12 to VM #2
+0.2: Broker: Sending cloudlet 13 to VM #3
+0.2: Broker: Sending cloudlet 14 to VM #4
+0.2: Broker: Sending cloudlet 15 to VM #5
+0.2: Broker: Sending cloudlet 16 to VM #6
+0.2: Broker: Sending cloudlet 17 to VM #7
+0.2: Broker: Sending cloudlet 18 to VM #8
+0.2: Broker: Sending cloudlet 19 to VM #9
+0.2: Broker: Sending cloudlet 20 to VM #0
+0.2: Broker: Sending cloudlet 21 to VM #1
+0.2: Broker: Sending cloudlet 22 to VM #2
+0.2: Broker: Sending cloudlet 23 to VM #3
+0.2: Broker: Sending cloudlet 24 to VM #4
+0.2: Broker: Sending cloudlet 25 to VM #5
+0.2: Broker: Sending cloudlet 26 to VM #6
+0.2: Broker: Sending cloudlet 27 to VM #7
+0.2: Broker: Sending cloudlet 28 to VM #8
+0.2: Broker: Sending cloudlet 29 to VM #9
+0.2: Broker: Sending cloudlet 30 to VM #0
+0.2: Broker: Sending cloudlet 31 to VM #1
+0.2: Broker: Sending cloudlet 32 to VM #2
+0.2: Broker: Sending cloudlet 33 to VM #3
+0.2: Broker: Sending cloudlet 34 to VM #4
+0.2: Broker: Sending cloudlet 35 to VM #5
+0.2: Broker: Sending cloudlet 36 to VM #6
+0.2: Broker: Sending cloudlet 37 to VM #7
+0.2: Broker: Sending cloudlet 38 to VM #8
+0.2: Broker: Sending cloudlet 39 to VM #9
+1.2149999999999999: Broker: Cloudlet 4 received
+1.318: Broker: Cloudlet 2 received
+1.523: Broker: Cloudlet 8 received
+1.928: Broker: Cloudlet 1 received
+2.024: Broker: Cloudlet 6 received
+2.062: Broker: Cloudlet 3 received
+2.159: Broker: Cloudlet 7 received
+2.424: Broker: Cloudlet 9 received
+2.83: Broker: Cloudlet 0 received
+3.152: Broker: Cloudlet 18 received
+3.1870000000000003: Broker: Cloudlet 5 received
+3.262: Broker: Cloudlet 17 received
+3.6870000000000003: Broker: Cloudlet 13 received
+3.8910000000000005: Broker: Cloudlet 11 received
+4.035: Broker: Cloudlet 14 received
+4.134: Broker: Cloudlet 16 received
+4.145: Broker: Cloudlet 12 received
+4.244: Broker: Cloudlet 19 received
+4.435: Broker: Cloudlet 28 received
+5.0489999999999995: Broker: Cloudlet 10 received
+5.414: Broker: Cloudlet 27 received
+5.51: Broker: Cloudlet 21 received
+5.572: Broker: Cloudlet 26 received
+5.912: Broker: Cloudlet 15 received
+6.021999999999999: Broker: Cloudlet 24 received
+6.131999999999999: Broker: Cloudlet 20 received
+6.181: Broker: Cloudlet 38 received
+6.637999999999999: Broker: Cloudlet 23 received
+6.819999999999999: Broker: Cloudlet 22 received
+6.85: Broker: Cloudlet 29 received
+6.959999999999999: Broker: Cloudlet 36 received
+7.608: Broker: Cloudlet 34 received
+8.050999999999998: Broker: Cloudlet 37 received
+8.209: Broker: Cloudlet 31 received
+8.334: Broker: Cloudlet 25 received
+8.651: Broker: Cloudlet 30 received
+9.025: Broker: Cloudlet 32 received
+9.253999999999998: Broker: Cloudlet 39 received
+9.467: Broker: Cloudlet 33 received
+11.083: Broker: Cloudlet 35 received
+11.083: Broker: All Cloudlets executed. Finishing...
+11.083: Broker: Destroying VM #0
+11.083: Broker: Destroying VM #1
+11.083: Broker: Destroying VM #2
+11.083: Broker: Destroying VM #3
+11.083: Broker: Destroying VM #4
+11.083: Broker: Destroying VM #5
+11.083: Broker: Destroying VM #6
+11.083: Broker: Destroying VM #7
+11.083: Broker: Destroying VM #8
+11.083: Broker: Destroying VM #9
+Broker is shutting down...
+Simulation: No more future events
+CloudInformationService: Notify all CloudSim entities for shutting down.
+Datacenter_0 is shutting down...
+Datacenter_1 is shutting down...
+Broker is shutting down...
+Simulation completed.
+Simulation completed.
+========== OUTPUT ==========
+Cloudlet 	 Burst Time 	 Waiting Time 	 Turn Around Time
+-------------------------------------------------------------------
+
+Cloudlet: 4		1.01		0.0		1.01
+
+
+Cloudlet: 2		1.12		1.01		2.13
+
+
+Cloudlet: 8		1.32		2.13		3.4500003
+
+
+Cloudlet: 1		1.73		3.4500003		5.1800003
+
+
+Cloudlet: 6		1.82		5.1800003		7.0000005
+
+
+Cloudlet: 3		1.86		7.0000005		8.860001
+
+
+Cloudlet: 7		1.96		8.860001		10.820001
+
+
+Cloudlet: 9		2.22		10.820001		13.040001
+
+
+Cloudlet: 0		2.63		13.040001		15.670001
+
+
+Cloudlet: 18		1.63		15.670001		17.300001
+
+
+Cloudlet: 5		2.99		17.300001		20.29
+
+
+Cloudlet: 17		1.1		20.29		21.390001
+
+
+Cloudlet: 13		1.63		21.390001		23.02
+
+
+Cloudlet: 11		1.96		23.02		24.98
+
+
+Cloudlet: 14		2.82		24.98		27.8
+
+
+Cloudlet: 16		2.11		27.8		29.91
+
+
+Cloudlet: 12		2.83		29.91		32.739998
+
+
+Cloudlet: 19		1.82		32.739998		34.559998
+
+
+Cloudlet: 28		1.28		34.559998		35.839996
+
+
+Cloudlet: 10		2.22		35.839996		38.059998
+
+
+Cloudlet: 27		2.15		38.059998		40.21
+
+
+Cloudlet: 21		1.62		40.21		41.829998
+
+
+Cloudlet: 26		1.44		41.829998		43.269997
+
+
+Cloudlet: 15		2.72		43.269997		45.989998
+
+
+Cloudlet: 24		1.99		45.989998		47.98
+
+
+Cloudlet: 20		1.08		47.98		49.06
+
+
+Cloudlet: 38		1.75		49.06		50.81
+
+
+Cloudlet: 23		2.95		50.81		53.760002
+
+
+Cloudlet: 22		2.67		53.760002		56.43
+
+
+Cloudlet: 29		2.61		56.43		59.04
+
+
+Cloudlet: 36		1.39		59.04		60.43
+
+
+Cloudlet: 34		1.59		60.43		62.02
+
+
+Cloudlet: 37		2.64		62.02		64.66
+
+
+Cloudlet: 31		2.7		64.66		67.36
+
+
+Cloudlet: 25		2.42		67.36		69.78
+
+
+Cloudlet: 30		2.52		69.78		72.299995
+
+
+Cloudlet: 32		2.21		72.299995		74.509995
+
+
+Cloudlet: 39		2.4		74.509995		76.909996
+
+
+Cloudlet: 33		2.83		76.909996		79.74
+
+
+Cloudlet: 35		2.75		79.74		82.49
+Average Waiting Time on Total: 37.2285
+Average Turn Around Time on Total: 39.29075
+
+Cloudlet ID    STATUS    Data center ID    VM ID        Time    Start Time    Finish Time    User ID    Waiting Time        Turn Around Time
+    4        SUCCESS            2            4            1.01        0.2        1.21            4            0.0            1.01
+    2        SUCCESS            2            2            1.12        0.2        1.32            4            1.01            2.13
+    8        SUCCESS            3            8            1.32        0.2        1.52            4            2.13            3.4500003
+    1        SUCCESS            2            1            1.73        0.2        1.93            4            3.4500003            5.1800003
+    6        SUCCESS            3            6            1.82        0.2        2.02            4            5.1800003            7.0000005
+    3        SUCCESS            2            3            1.86        0.2        2.06            4            7.0000005            8.860001
+    7        SUCCESS            3            7            1.96        0.2        2.16            4            8.860001            10.820001
+    9        SUCCESS            3            9            2.22        0.2        2.42            4            10.820001            13.040001
+    0        SUCCESS            2            0            2.63        0.2        2.83            4            13.040001            15.670001
+    18        SUCCESS            3            8            1.63        1.52        3.15            4            15.670001            17.300001
+    5        SUCCESS            2            5            2.99        0.2        3.19            4            17.300001            20.29
+    17        SUCCESS            3            7            1.1        2.16        3.26            4            20.29            21.390001
+    13        SUCCESS            2            3            1.63        2.06        3.69            4            21.390001            23.02
+    11        SUCCESS            2            1            1.96        1.93        3.89            4            23.02            24.98
+    14        SUCCESS            2            4            2.82        1.21        4.04            4            24.98            27.8
+    16        SUCCESS            3            6            2.11        2.02        4.13            4            27.8            29.91
+    12        SUCCESS            2            2            2.83        1.32        4.14            4            29.91            32.739998
+    19        SUCCESS            3            9            1.82        2.42        4.24            4            32.739998            34.559998
+    28        SUCCESS            3            8            1.28        3.15        4.43            4            34.559998            35.839996
+    10        SUCCESS            2            0            2.22        2.83        5.05            4            35.839996            38.059998
+    27        SUCCESS            3            7            2.15        3.26        5.41            4            38.059998            40.21
+    21        SUCCESS            2            1            1.62        3.89        5.51            4            40.21            41.829998
+    26        SUCCESS            3            6            1.44        4.13        5.57            4            41.829998            43.269997
+    15        SUCCESS            2            5            2.72        3.19        5.91            4            43.269997            45.989998
+    24        SUCCESS            2            4            1.99        4.04        6.02            4            45.989998            47.98
+    20        SUCCESS            2            0            1.08        5.05        6.13            4            47.98            49.06
+    38        SUCCESS            3            8            1.75        4.43        6.18            4            49.06            50.81
+    23        SUCCESS            2            3            2.95        3.69        6.64            4            50.81            53.760002
+    22        SUCCESS            2            2            2.67        4.14        6.82            4            53.760002            56.43
+    29        SUCCESS            3            9            2.61        4.24        6.85            4            56.43            59.04
+    36        SUCCESS            3            6            1.39        5.57        6.96            4            59.04            60.43
+    34        SUCCESS            2            4            1.59        6.02        7.61            4            60.43            62.02
+    37        SUCCESS            3            7            2.64        5.41        8.05            4            62.02            64.66
+    31        SUCCESS            2            1            2.7        5.51        8.21            4            64.66            67.36
+    25        SUCCESS            2            5            2.42        5.91        8.33            4            67.36            69.78
+    30        SUCCESS            2            0            2.52        6.13        8.65            4            69.78            72.299995
+    32        SUCCESS            2            2            2.21        6.82        9.03            4            72.299995            74.509995
+    39        SUCCESS            3            9            2.4        6.85        9.25            4            74.509995            76.909996
+    33        SUCCESS            2            3            2.83        6.64        9.47            4            76.909996            79.74
+    35        SUCCESS            2            5            2.75        8.33        11.08            4            79.74            82.49
+Round Robin has finished executing!
